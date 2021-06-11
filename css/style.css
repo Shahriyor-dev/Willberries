@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  padding: 15px 0;
+}
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #939699;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.button {
+  background: #4592ff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.button-icon,
+.button-price {
+  margin-right: 10px;
+}
+.button-price {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.button-icon:last-child {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.button-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.slide-1 {
+  background-color: #b4d1e0;
+  background-image: url(../img/slide-1.png);
+  background-repeat: no-repeat;
+  background-position: top right 15%;
+}
+.slide {
+  padding: 90px 0 110px;
+  min-height: 568px;
+}
+.label {
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+  background: #3dc47e;
+  font-size: 12px;
+  line-height: 15px;
+}
+.slide-title {
+  font-family: "Roboto Slab", serif;
+  color: #262d33;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.slide-description {
+  color: #4b5157;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+.slider {
+  position: relative;
+}
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 9;
+}
+.slider-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.card {
+  min-height: 370px;
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-left: 56px;
+  padding-right: 46px;
+  padding-bottom: 80px;
+}
+.card-1 {
+  background-color: #e3e2e3;
+  background-image: url(../img/card-1.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-2 {
+  background-color: #000;
+  background-image: url(../img/card-2.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-3 {
+  background-color: #ccd5e6;
+  background-image: url(../img/card-3.png);
+  background-position: top right 10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 35px;
+}
+.card-4 {
+  background-color: #ff4f52;
+  background-image: url(../img/card-4.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 35px;
+  padding-left: 25px;
+}
+.card-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+  max-width: 222px;
+  margin: 0;
+}
+.card-title.large {
+  max-width: 420px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.card-text {
+  color: #4b5157;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 176px;
+  margin-bottom: 25px;
+}
+.card-text.large {
+  max-width: 320px;
+}
+.text-light {
+  color: #fff;
+}
+.card-price {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.card-text.text-pink {
+  color: #ffc4c9;
+}
+.section-title {
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+}
+.link-more {
+  text-decoration: none;
+  color: #262d33;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px;
+}
+.goods-card {
+  position: relative;
+  text-align: center;
+  padding: 30px 36px 30px 36px;
+}
+.goods-card .label {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+.goods-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #262d33;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+}
+.goods-description {
+  color: #4b5157;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.goods-price {
+  color: #262d33;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background: #8f79d4;
+  padding: 45px 0 40px;
+  color: #fff;
+}
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.social-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+.footer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e7d9ff;
+}
+.footer-line {
+  opacity: 0.5;
+}
+.top-link {
+  text-decoration: none;
+  color: #fff;
+}
+.top-link-text {
+  margin-right: 15px;
+}
+.payment-logo {
+  vertical-align: middle;
+  margin-right: 25px;
+}
+@media (max-width: 1200px) {
+  .slide-1 {
+    background-size: cover;
+  }
+  .card-3 {
+    background-size: cover;
+  }
+}
+@media (max-width: 992px) {
+  .slider-nav {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .slide-title {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  .card {
+    background-position: left top;
+    padding: 30px;
+    min-height: 300px;
+  }
+  .card-4 {
+    background-position: right top;
+  }
+}
